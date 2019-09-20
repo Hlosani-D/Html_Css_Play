@@ -1,0 +1,52 @@
+#grad{
+    height: 768px;
+    background-image: linear-gradient(rgb(20, 39, 212), rgb(0, 217, 255));
+}
+
+.button{
+    transition-duration: 0.4s;
+    background-color: aquamarine;
+    border: 2px solid greenyellow;
+    border-block-start-color: azure;
+    border-block-end-color: wheat;
+    color: red;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.button:hover{
+    background: purple;
+    color: white;
+}
+
+h1{
+    margin-inline-start: 20px;
+    color: chartreuse;
+}
+
+h3{
+    margin-inline-start: 20px
+}
+
+div{
+    font-size: small;
+    padding: 5px 50px 50px 50px;
+    animation-name: updown;
+    animation-duration: 5s;
+    animation-iteration-count: 10;
+    animation-direction: alternate;
+}
+
+p{
+    text-align: justify;
+}
+
+@keyframes updown{
+    0%  {text-decoration-color: chartreuse; left: 0px; top: 0px;}
+    50%  {text-decoration-color: navajowhite; left: 0px; top: 100px;}
+    100%  {text-decoration-color: pink; left: 0px; top: 200px;}    
+}
